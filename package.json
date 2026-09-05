@@ -1,0 +1,14 @@
+{
+  "name": "bento-buddies",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "uuid": "ee3ba280-358a-43d4-9d6c-b10d9d9450b2",
+  "scripts": {
+    "content:generate": "node tools/generate-levels.mjs",
+    "test": "node --experimental-strip-types tools/test.mjs && node tools/analyze-campaign.mjs"
+  }
+}

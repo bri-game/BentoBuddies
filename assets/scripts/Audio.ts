@@ -1,0 +1,6 @@
+import {AudioClip,AudioSource,Node,resources,game,Game} from 'cc';
+export class Audio {
+ private clips=new Map<string,AudioClip>();private music:AudioSource;private effects:AudioSource;private m=true;private s=true;private hidden=false;
+ constructor(root:Node,m:boolean,s:boolean){this.m=m;this.s=s;const n=new Node('Music');root.addChild(n);this.music=n.addComponent(AudioSource);this.music.loop=true;this.music.volume=.17;this.music.playOnAwake=false;const e=new Node('Effects');root.addChild(e);this.effects=e.addComponent(AudioSource);this.effects.playOnAwake=false;resources.loadDir('audio',AudioClip,(err,clips)=>{if(err)return;clips.forEach(c=>this.clips.set(c.name,c));this.music.clip=this.clips.get('music')||null;this.sync();});game.on(Game.EVENT_HIDE,this.hide,this);game.on(Game.EVENT_SHOW,this.show,this);}
+ hide(){this.hidden=true;this.music.pause();this.effects.stop();}show(){this.hidden=false;this.sync();}set(m:boolean,s:boolean){this.m=m;this.s=s;this.sync();}private sync(){if(this.m&&!this.hidden&&this.music.clip){if(!this.music.playing)this.music.play();}else this.music.pause();}play(id:string){const c=this.clips.get(id);if(this.s&&!this.hidden&&c)this.effects.playOneShot(c,.55);}destroy(){game.off(Game.EVENT_HIDE,this.hide,this);game.off(Game.EVENT_SHOW,this.show,this);}
+}

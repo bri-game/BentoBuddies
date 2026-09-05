@@ -1,0 +1,41 @@
+{
+  "name": "Bento Buddies",
+  "platform": "android",
+  "buildPath": "project://build",
+  "outputName": "android-qa",
+  "debug": false,
+  "useSplashScreen": false,
+  "startScene": "defe0d56-8f67-4a32-a5bc-398d9954ab5b",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/Main.scene",
+      "uuid": "defe0d56-8f67-4a32-a5bc-398d9954ab5b"
+    }
+  ],
+  "packages": {
+    "android": {
+      "packageName": "com.bentobuddies.game.qa",
+      "apiLevel": 36,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "appBundle": false,
+      "orientation": {
+        "portrait": true,
+        "landscapeLeft": false,
+        "landscapeRight": false,
+        "upsideDown": false
+      },
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": false
+      },
+      "sdkPath": "/Users/xiu/Library/Android/sdk",
+      "ndkPath": "/Users/xiu/Library/Android/sdk/ndk/24.0.8215888",
+      "javaHome": "/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home",
+      "swappy": false
+    }
+  }
+}

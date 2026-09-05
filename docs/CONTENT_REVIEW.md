@@ -1,0 +1,6 @@
+# Content review
+24 seeded packing levels, stored authored solutions, no optimality or uniqueness claim. 807 assertions cover every placement, exact board area, connected pieces, geometry bounds, full solution replay, actual puzzle equivalence under board dihedral transforms/free piece rotations/neutral ingredient renaming (independent of the stored solution), relationship rules, atomic rejected moves and validated save/unlocks. Generator seed 528194. Catalog is checked in; generated values do not change at runtime.
+
+Progression: 1–4 packing/rotation, 5–8 rice/vegetable adjacency, 9–12 cold/hot separation, 13–16 strawberry edge placement, 17–18 rice+cold, 19–24 all relationships. Three friends each accompany eight meals. Recovery markers 4,12,21; mastery markers 8,16,20,24. Structural content gate passes, but difficulty labels are author intent and require calibration with independent players. Fixed horizontal/vertical connections distinguish a multi-cell piece from disconnected food. Wrong serve preserves all placements and highlights named failing ingredients.
+
+MVP retention is based on new rule combinations, three friend chapters, replay and a persistent album containing the player's actual arrangements. No measured D1/D7 retention is claimed. Daily challenges and longitudinal user testing are outside this build.

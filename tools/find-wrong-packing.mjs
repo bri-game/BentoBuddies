@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {canPlace,evaluate,rotate} from '../assets/scripts/Rules.ts';
+const l=JSON.parse(fs.readFileSync(new URL('../assets/resources/data/levels.json',import.meta.url))).levels[8];let answer=null,nodes=0;const order=[...l.pieces].sort((a,b)=>b.shape.length-a.shape.length);
+function dfs(i,b){if(answer||nodes++>200000)return;if(i===order.length){const e=evaluate(l,b);if(e.issues.some(s=>s.includes('Kem')))answer=b;return;}const p=order[i],seen=new Set();for(let r=0;r<4;r++){let key=rotate(p.shape,r).map(c=>c.join(',')).sort().join(';');if(seen.has(key))continue;seen.add(key);for(let y=0;y<l.h;y++)for(let x=0;x<l.w;x++){let pos={x,y,r};if(canPlace(l,b,p.id,pos))dfs(i+1,{...b,[p.id]:pos});}}}
+dfs(0,{});if(!answer)throw Error('No intentional wrong packing found');fs.writeFileSync(new URL('../artifacts/wrong-level-09.json',import.meta.url),JSON.stringify(answer,null,2));console.log(evaluate(l,answer));

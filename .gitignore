@@ -1,0 +1,23 @@
+# Cocos / Android generated output
+library/
+temp/
+build/
+profiles/
+node_modules/
+.gradle/
+.cxx/
+local.properties
+native/engine/common/localCfg.cmake
+
+# Local APKs, device evidence, saves and caches
+artifacts/
+releases/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+*.keystore
+*.jks
+.env
+.env.*
+!.env.example
