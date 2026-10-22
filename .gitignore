@@ -1,4 +1,7 @@
 # Cocos / Android generated output
+settings/v2/packages/cocos-service.json
+native/engine/android/Pre-service.cmake
+native/engine/android/Post-service.cmake
 library/
 temp/
 build/
@@ -21,3 +24,4 @@ __pycache__/
 .env
 .env.*
 !.env.example
+native/engine/android/app/release

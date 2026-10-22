@@ -1,20 +1,20 @@
 export const CHAPTERS=[
- {title:'Những bữa picnic đầu',theme:'Làm quen, Cơm cùng Rau, Kem xa Súp'},
- {title:'Những lời nhờ nhỏ',theme:'Dâu sát viền và phối hợp sở thích'},
- {title:'Chỗ hẹn trong hộp',theme:'Phủ đúng món lên ô được đánh dấu'},
- {title:'Dải ruy băng nhỏ',theme:'Món có khóa được di chuyển, không được xoay'},
- {title:'Chiếc bánh được che',theme:'Toàn bộ Bánh nằm bên trong hộp'},
- {title:'Hai ngăn, một bữa',theme:'Chọn ngăn, vượt góc hẹp, chia khoảng trống'},
- {title:'Những lời hứa chung',theme:'Phối hợp các điều bạn bè yêu thích'},
- {title:'Hộp quà khéo léo',theme:'Hướng cố định và những khoảng trống khó'},
- {title:'Picnic bậc thầy',theme:'Tổng hợp, thử thách và những bữa nghỉ'}
+ {title:'First Picnics',theme:'Getting started, Rice with Veggie, Ice Cream away from Soup'},
+ {title:'Small Requests',theme:'Berry on the rim, and tastes that mix'},
+ {title:'Saved Seats',theme:'Cover every marked cell with the right food'},
+ {title:'A Little Ribbon',theme:'Locked items can move, but never rotate'},
+ {title:'The Sheltered Cookie',theme:'Every Cookie cell stays inside the box'},
+ {title:'Two Halves, One Meal',theme:'Pick a side, squeeze past corners, split the space'},
+ {title:'Promises Together',theme:'Combine everything your friends love'},
+ {title:'A Clever Gift Box',theme:'Fixed angles and awkward gaps'},
+ {title:'Master Picnics',theme:'Everything combined, challenges, and calm breaks'}
 ];
-export const RULE_SHORT:Record<string,string>={rice:'Cơm chạm Rau',cold:'Kem xa Súp',edge:'Dâu sát viền',target:'Phủ đúng ô món',fixed:'Khóa = không xoay',center:'Bánh không chạm viền'};
+export const RULE_SHORT:Record<string,string>={rice:'Rice touches Veggie',cold:'Ice Cream far from Soup',edge:'Berry on the rim',target:'Cover marked cells',fixed:'Locked = no rotating',center:'Cookie off the rim'};
 export const RULE_HELP:Record<string,string>={
- rice:'Cơm cần chạm cạnh Rau. Chạm chéo không tính.',
- cold:'Kem không được chạm cạnh Súp.',
- edge:'Ít nhất một ô Dâu chạm viền ngoài hộp.',
- target:'Ô có hình món và ngôi sao là chỗ hẹn.\nĐặt đúng loại món phủ lên ô đó.\nChạm ô đánh dấu để xem món cần đặt.',
- fixed:'Món có khóa giữ nguyên hướng trong khay.\nBạn vẫn có thể di chuyển, bỏ ra và hoàn tác.\nHãy xoay các món khác để nhường chỗ.',
- center:'Toàn bộ miếng Bánh phải ở bên trong hộp.\nKhông ô Bánh nào được chạm viền ngoài.\nCác món khác vẫn có thể nằm sát viền.'
+ rice:'Rice must touch a Veggie edge to edge.\nDiagonal corners do not count.',
+ cold:'Ice Cream must never touch Soup edge to edge.',
+ edge:'At least one Berry cell must touch\nthe outer rim of the box.',
+ target:'A cell with a food picture and a star\nis a saved seat. Cover it with that food.\nTap a marked cell to see what it needs.',
+ fixed:'A locked item keeps the angle it has\non the tray. You can still move it,\ntake it out and undo. Rotate the rest.',
+ center:'The whole Cookie must sit inside the box.\nNo Cookie cell may touch the outer rim.\nOther foods can still rest on the rim.'
 };

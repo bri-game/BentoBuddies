@@ -28,7 +28,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.content.res.Configuration;
 
-import com.cocos.service.SDKWrapper;
 import com.cocos.lib.CocosActivity;
 
 public class AppActivity extends CocosActivity {
@@ -37,20 +36,17 @@ public class AppActivity extends CocosActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // DO OTHER INITIALIZATION BELOW
-        SDKWrapper.shared().init(this);
 
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        SDKWrapper.shared().onResume();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        SDKWrapper.shared().onPause();
     }
 
     @Override
@@ -60,31 +56,26 @@ public class AppActivity extends CocosActivity {
         if (!isTaskRoot()) {
             return;
         }
-        SDKWrapper.shared().onDestroy();
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        SDKWrapper.shared().onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        SDKWrapper.shared().onNewIntent(intent);
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        SDKWrapper.shared().onRestart();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        SDKWrapper.shared().onStop();
     }
 
     @Override
@@ -103,31 +94,26 @@ public class AppActivity extends CocosActivity {
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
-        SDKWrapper.shared().onConfigurationChanged(newConfig);
         super.onConfigurationChanged(newConfig);
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        SDKWrapper.shared().onRestoreInstanceState(savedInstanceState);
         super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        SDKWrapper.shared().onSaveInstanceState(outState);
         super.onSaveInstanceState(outState);
     }
 
     @Override
     protected void onStart() {
-        SDKWrapper.shared().onStart();
         super.onStart();
     }
 
     @Override
     public void onLowMemory() {
-        SDKWrapper.shared().onLowMemory();
         super.onLowMemory();
     }
 }

@@ -4,7 +4,7 @@
   "levels": [
     {
       "id": 1,
-      "title": "Hộp cơm đầu tiên",
+      "title": "First Lunchbox",
       "friend": 0,
       "w": 3,
       "h": 2,
@@ -75,7 +75,7 @@
     },
     {
       "id": 2,
-      "title": "Xoay một chút",
+      "title": "A Little Turn",
       "friend": 0,
       "w": 3,
       "h": 2,
@@ -147,7 +147,7 @@
     },
     {
       "id": 3,
-      "title": "Góc nhỏ xinh",
+      "title": "A Cozy Corner",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -253,7 +253,7 @@
     },
     {
       "id": 4,
-      "title": "Bữa trưa bên hồ",
+      "title": "Lunch by the Lake",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -360,7 +360,7 @@
     },
     {
       "id": 5,
-      "title": "Cơm thích rau",
+      "title": "Rice Likes Veggies",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -479,7 +479,7 @@
     },
     {
       "id": 6,
-      "title": "Một người bạn mới",
+      "title": "A New Friend",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -599,7 +599,7 @@
     },
     {
       "id": 7,
-      "title": "Vừa vặn bên nhau",
+      "title": "Side by Side",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -734,7 +734,7 @@
     },
     {
       "id": 8,
-      "title": "Giỏ cơm của Thỏ",
+      "title": "Bunny's Basket",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -870,7 +870,7 @@
     },
     {
       "id": 9,
-      "title": "Giữ kem mát nhé",
+      "title": "Keep the Ice Cream Cool",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1016,7 +1016,7 @@
     },
     {
       "id": 10,
-      "title": "Khoảng cách ngọt ngào",
+      "title": "A Sweet Distance",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1163,7 +1163,7 @@
     },
     {
       "id": 11,
-      "title": "Bữa trưa ấm áp",
+      "title": "A Warm Lunch",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1309,7 +1309,7 @@
     },
     {
       "id": 12,
-      "title": "Gió mát đồng cỏ",
+      "title": "Breeze Over the Meadow",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1456,7 +1456,7 @@
     },
     {
       "id": 13,
-      "title": "Dâu bên cửa sổ",
+      "title": "Berries by the Window",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1602,7 +1602,7 @@
     },
     {
       "id": 14,
-      "title": "Viền hộp xinh xắn",
+      "title": "A Pretty Rim",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1749,7 +1749,7 @@
     },
     {
       "id": 15,
-      "title": "Một góc cho dâu",
+      "title": "A Corner for Berries",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1895,7 +1895,7 @@
     },
     {
       "id": 16,
-      "title": "Nghỉ dưới tán cây",
+      "title": "Rest in the Shade",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -2042,7 +2042,7 @@
     },
     {
       "id": 17,
-      "title": "Cùng đi picnic",
+      "title": "Off to the Picnic",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2216,7 +2216,7 @@
     },
     {
       "id": 18,
-      "title": "Nóng và lạnh",
+      "title": "Hot and Cold",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2391,7 +2391,7 @@
     },
     {
       "id": 19,
-      "title": "Chia nhau món ngon",
+      "title": "Sharing the Good Bits",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2566,7 +2566,7 @@
     },
     {
       "id": 20,
-      "title": "Hộp cơm cầu kỳ",
+      "title": "A Fancy Lunchbox",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2742,7 +2742,7 @@
     },
     {
       "id": 21,
-      "title": "Ngày nắng dịu",
+      "title": "A Soft Sunny Day",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2917,7 +2917,7 @@
     },
     {
       "id": 22,
-      "title": "Tiệc nhỏ ba người",
+      "title": "A Party for Three",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -3093,7 +3093,7 @@
     },
     {
       "id": 23,
-      "title": "Món quà bất ngờ",
+      "title": "An Unexpected Gift",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -3268,7 +3268,7 @@
     },
     {
       "id": 24,
-      "title": "Picnic bên hoàng hôn",
+      "title": "Picnic at Sunset",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -3444,7 +3444,7 @@
     },
     {
       "id": 25,
-      "title": "Ô hẹn đầu tiên",
+      "title": "The First Saved Seat",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -3559,12 +3559,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Làm quen",
+      "difficulty": "Gentle",
       "seed": 1366516706
     },
     {
       "id": 26,
-      "title": "Những ô hẹn trước",
+      "title": "Seats Saved Ahead",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -3724,12 +3724,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1372551603
     },
     {
       "id": 27,
-      "title": "Góc hẹn nhỏ xinh",
+      "title": "A Little Meeting Corner",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -3890,12 +3890,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 216005863
     },
     {
       "id": 28,
-      "title": "Lời nhắn bên hộp",
+      "title": "A Note on the Box",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -4057,12 +4057,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 839040295
     },
     {
       "id": 29,
-      "title": "Hai chỗ ngồi nhỏ",
+      "title": "Two Small Seats",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -4239,12 +4239,12 @@
           "kind": "shrimp"
         }
       ],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3044671609
     },
     {
       "id": 30,
-      "title": "Đúng món đúng chỗ",
+      "title": "Right Food, Right Spot",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -4413,12 +4413,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 2133305331
     },
     {
       "id": 31,
-      "title": "Dạo qua vườn hoa",
+      "title": "A Walk Through Flowers",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -4584,12 +4584,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 2954959370
     },
     {
       "id": 32,
-      "title": "Chọn ô trước nhé",
+      "title": "Choose the Cell First",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -4751,12 +4751,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2759120635
     },
     {
       "id": 33,
-      "title": "Hẹn Cơm cùng Rau",
+      "title": "Rice Meets Veggie",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -4919,12 +4919,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3883578696
     },
     {
       "id": 34,
-      "title": "Tấm thiệp đôi",
+      "title": "A Pair of Cards",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -5086,12 +5086,12 @@
           "kind": "shrimp"
         }
       ],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 2349376814
     },
     {
       "id": 35,
-      "title": "Ba lời nhắn nhỏ",
+      "title": "Three Little Notes",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -5277,12 +5277,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 1083097993
     },
     {
       "id": 36,
-      "title": "Picnic thong thả",
+      "title": "An Easy Picnic",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -5433,12 +5433,12 @@
           "kind": "hot"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 4149596466
     },
     {
       "id": 37,
-      "title": "Giữ nguyên hướng nhé",
+      "title": "Keep That Angle",
       "friend": 1,
       "w": 4,
       "h": 3,
@@ -5546,12 +5546,12 @@
       "stage": "introduce",
       "topology": "rectangle",
       "targets": [],
-      "difficulty": "Làm quen",
+      "difficulty": "Gentle",
       "seed": 1913707091
     },
     {
       "id": 38,
-      "title": "Dải ruy băng nhỏ",
+      "title": "A Little Ribbon",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -5699,12 +5699,12 @@
       "stage": "vary",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3390758872
     },
     {
       "id": 39,
-      "title": "Đi ngang qua hộp",
+      "title": "Straight Across",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -5852,12 +5852,12 @@
       "stage": "vary",
       "topology": "well",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3257743136
     },
     {
       "id": 40,
-      "title": "Một góc vừa khít",
+      "title": "A Snug Corner",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -6022,12 +6022,12 @@
       "stage": "combine",
       "topology": "well",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 453704686
     },
     {
       "id": 41,
-      "title": "Hai món giữ hướng",
+      "title": "Two Locked Items",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -6192,12 +6192,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 427477205
     },
     {
       "id": 42,
-      "title": "Nút thắt khéo léo",
+      "title": "A Clever Knot",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -6363,12 +6363,12 @@
       "stage": "mastery",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 3316916482
     },
     {
       "id": 43,
-      "title": "Nghỉ bên bờ suối",
+      "title": "Rest by the Stream",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -6505,12 +6505,12 @@
       "stage": "recovery",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 2424356249
     },
     {
       "id": 44,
-      "title": "Đường dài một hướng",
+      "title": "One Long Direction",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -6659,12 +6659,12 @@
       "stage": "vary",
       "topology": "well",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 649497255
     },
     {
       "id": 45,
-      "title": "Ruy băng và lời hẹn",
+      "title": "Ribbon and Promise",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -6844,12 +6844,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 967554425
     },
     {
       "id": 46,
-      "title": "Xoay món còn lại",
+      "title": "Turn What Is Left",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -7014,12 +7014,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3793989323
     },
     {
       "id": 47,
-      "title": "Gói quà vuông vắn",
+      "title": "A Neat Square Gift",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -7207,12 +7207,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 3182406824
     },
     {
       "id": 48,
-      "title": "Gió nhẹ qua vườn",
+      "title": "A Breeze in the Garden",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -7349,12 +7349,12 @@
       "stage": "recovery",
       "topology": "rectangle",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 668864204
     },
     {
       "id": 49,
-      "title": "Bánh ở bên trong",
+      "title": "The Cookie Stays In",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -7477,12 +7477,12 @@
       "stage": "introduce",
       "topology": "rectangle",
       "targets": [],
-      "difficulty": "Làm quen",
+      "difficulty": "Gentle",
       "seed": 368077939
     },
     {
       "id": 50,
-      "title": "Ô giữa ấm cúng",
+      "title": "A Cozy Middle",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -7644,12 +7644,12 @@
       "stage": "vary",
       "topology": "well",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1674120756
     },
     {
       "id": 51,
-      "title": "Chiếc bánh được che",
+      "title": "The Sheltered Cookie",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -7795,12 +7795,12 @@
       "stage": "vary",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 948389070
     },
     {
       "id": 52,
-      "title": "Kem mát Bánh êm",
+      "title": "Cool Cream, Soft Cookie",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -7963,12 +7963,12 @@
       "stage": "combine",
       "topology": "well",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 788855249
     },
     {
       "id": 53,
-      "title": "Dành chỗ cho Bánh",
+      "title": "Room for the Cookie",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -8114,12 +8114,12 @@
       "stage": "pressure",
       "topology": "rectangle",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 1560589173
     },
     {
       "id": 54,
-      "title": "Vòng ngoài vòng trong",
+      "title": "Outer Ring, Inner Ring",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -8282,12 +8282,12 @@
       "stage": "mastery",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 2339082013
     },
     {
       "id": 55,
-      "title": "Bữa trà dưới lá",
+      "title": "Tea Under the Leaves",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -8422,12 +8422,12 @@
       "stage": "recovery",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 4061471040
     },
     {
       "id": 56,
-      "title": "Một khoảng riêng tư",
+      "title": "A Quiet Space",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -8574,12 +8574,12 @@
       "stage": "vary",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2024947064
     },
     {
       "id": 57,
-      "title": "Bánh và lời nhắn",
+      "title": "Cookie and Note",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -8742,12 +8742,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 4051821251
     },
     {
       "id": 58,
-      "title": "Vừa vặn lõi hộp",
+      "title": "Snug in the Core",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -8910,12 +8910,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 1329841234
     },
     {
       "id": 59,
-      "title": "Chia viền cho Dâu",
+      "title": "Rim Left for Berry",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -9101,12 +9101,12 @@
           "kind": "berry"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 4043097151
     },
     {
       "id": 60,
-      "title": "Trà chiều thong thả",
+      "title": "A Slow Afternoon Tea",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -9258,12 +9258,12 @@
       "stage": "recovery",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 3164542190
     },
     {
       "id": 61,
-      "title": "Hai ngăn picnic",
+      "title": "Two Picnic Halves",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -9410,12 +9410,12 @@
       "stage": "vary",
       "topology": "split",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 194531208
     },
     {
       "id": 62,
-      "title": "Bậc thềm nhỏ",
+      "title": "A Small Step",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -9579,12 +9579,12 @@
           "kind": "shrimp"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1028825947
     },
     {
       "id": 63,
-      "title": "Lối vòng quanh đá",
+      "title": "Around the Stones",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -9747,12 +9747,12 @@
       "stage": "vary",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3704780476
     },
     {
       "id": 64,
-      "title": "Chọn góc cho món",
+      "title": "Pick a Corner",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -9930,12 +9930,12 @@
           "kind": "shrimp"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1283796293
     },
     {
       "id": 65,
-      "title": "Một khe vừa đủ",
+      "title": "Just Enough Gap",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -10082,12 +10082,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3657055612
     },
     {
       "id": 66,
-      "title": "Hai bữa trong hộp",
+      "title": "Two Meals, One Box",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -10250,12 +10250,12 @@
       "stage": "mastery",
       "topology": "split",
       "targets": [],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 4066096730
     },
     {
       "id": 67,
-      "title": "Nghỉ giữa hai bờ",
+      "title": "Rest Between Banks",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -10405,12 +10405,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 667605100
     },
     {
       "id": 68,
-      "title": "Góc khuyết bất ngờ",
+      "title": "An Unexpected Notch",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -10557,12 +10557,12 @@
       "stage": "vary",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1744104204
     },
     {
       "id": 69,
-      "title": "Món dài qua ngõ",
+      "title": "A Long Piece Through",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -10709,12 +10709,12 @@
       "stage": "combine",
       "topology": "split",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3838712613
     },
     {
       "id": 70,
-      "title": "Góc nhỏ bên hồ",
+      "title": "A Nook by the Lake",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -10877,12 +10877,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 2081624322
     },
     {
       "id": 71,
-      "title": "Chia ngăn khéo léo",
+      "title": "A Clever Divide",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -11067,12 +11067,12 @@
           "kind": "berry"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 4233565007
     },
     {
       "id": 72,
-      "title": "Cầu gỗ buổi chiều",
+      "title": "The Wooden Bridge",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -11238,12 +11238,12 @@
           "kind": "egg"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 1950350215
     },
     {
       "id": 73,
-      "title": "Cuộc hẹn chung",
+      "title": "A Shared Promise",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -11424,12 +11424,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2240706290
     },
     {
       "id": 74,
-      "title": "Cơm Rau đúng chỗ",
+      "title": "Rice and Veggie in Place",
       "friend": 1,
       "w": 6,
       "h": 4,
@@ -11612,12 +11612,12 @@
       "stage": "vary",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 953886589
     },
     {
       "id": 75,
-      "title": "Hộp cơm nhiều lời nhắn",
+      "title": "A Box Full of Notes",
       "friend": 1,
       "w": 6,
       "h": 4,
@@ -11813,12 +11813,12 @@
           "kind": "hot"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2219193570
     },
     {
       "id": 76,
-      "title": "Giữ kem mát lành",
+      "title": "Keep the Cream Cool",
       "friend": 1,
       "w": 5,
       "h": 5,
@@ -12027,12 +12027,12 @@
           "kind": "berry"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3029633451
     },
     {
       "id": 77,
-      "title": "Từng điều quan tâm",
+      "title": "Every Little Care",
       "friend": 1,
       "w": 6,
       "h": 4,
@@ -12214,12 +12214,12 @@
       "stage": "pressure",
       "topology": "split",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 1794690302
     },
     {
       "id": 78,
-      "title": "Bữa trưa hòa hợp",
+      "title": "A Lunch in Harmony",
       "friend": 1,
       "w": 6,
       "h": 5,
@@ -12470,12 +12470,12 @@
           "kind": "cookie"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 3006698935
     },
     {
       "id": 79,
-      "title": "Một yêu cầu thôi",
+      "title": "Just One Request",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -12626,12 +12626,12 @@
       "stage": "recovery",
       "topology": "well",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 3663740459
     },
     {
       "id": 80,
-      "title": "Ruy băng cùng Bánh",
+      "title": "Ribbon and Cookie",
       "friend": 1,
       "w": 6,
       "h": 5,
@@ -12863,12 +12863,12 @@
           "kind": "shrimp"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3961142812
     },
     {
       "id": 81,
-      "title": "Bữa trưa đủ vị",
+      "title": "A Lunch of Every Flavor",
       "friend": 1,
       "w": 5,
       "h": 4,
@@ -13035,12 +13035,12 @@
       "stage": "combine",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3945024490
     },
     {
       "id": 82,
-      "title": "Chỗ này dành ai",
+      "title": "Who Is This Seat For",
       "friend": 1,
       "w": 6,
       "h": 5,
@@ -13271,12 +13271,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3623369219
     },
     {
       "id": 83,
-      "title": "Ba lời hứa nhỏ",
+      "title": "Three Small Promises",
       "friend": 1,
       "w": 6,
       "h": 5,
@@ -13524,12 +13524,12 @@
           "kind": "berry"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 106097926
     },
     {
       "id": 84,
-      "title": "Picnic bình yên",
+      "title": "A Peaceful Picnic",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -13664,12 +13664,12 @@
       "stage": "recovery",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 1223834732
     },
     {
       "id": 85,
-      "title": "Hộp quà nhiều góc",
+      "title": "A Gift Box of Corners",
       "friend": 2,
       "w": 6,
       "h": 4,
@@ -13852,12 +13852,12 @@
       "stage": "vary",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3506521022
     },
     {
       "id": 86,
-      "title": "Nút thắt giữa hộp",
+      "title": "A Knot in the Middle",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -14037,12 +14037,12 @@
           "kind": "egg"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2492088293
     },
     {
       "id": 87,
-      "title": "Qua khe hẹp nhé",
+      "title": "Through the Narrow Gap",
       "friend": 2,
       "w": 5,
       "h": 5,
@@ -14241,12 +14241,12 @@
           "kind": "berry"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 4117498521
     },
     {
       "id": 88,
-      "title": "Hai hướng một lời",
+      "title": "Two Ways, One Promise",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -14412,12 +14412,12 @@
       "stage": "combine",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1830236481
     },
     {
       "id": 89,
-      "title": "Vòng quanh lõi hộp",
+      "title": "Around the Core",
       "friend": 2,
       "w": 5,
       "h": 5,
@@ -14618,12 +14618,12 @@
           "kind": "veg"
         }
       ],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 2246358506
     },
     {
       "id": 90,
-      "title": "Gói gọn ngày nắng",
+      "title": "Sunshine, Neatly Packed",
       "friend": 2,
       "w": 6,
       "h": 5,
@@ -14849,12 +14849,12 @@
       "stage": "mastery",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 1333013309
     },
     {
       "id": 91,
-      "title": "Bữa ăn nhẹ nhàng",
+      "title": "A Gentle Meal",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -15005,12 +15005,12 @@
       "stage": "recovery",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 1440661553
     },
     {
       "id": 92,
-      "title": "Đảo chiều suy nghĩ",
+      "title": "Turn Your Thinking Around",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -15177,12 +15177,12 @@
       "stage": "vary",
       "topology": "corners",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3118279281
     },
     {
       "id": 93,
-      "title": "Góc cuối dành ai",
+      "title": "Who Gets the Last Corner",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -15361,12 +15361,12 @@
           "kind": "hot"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 2541763352
     },
     {
       "id": 94,
-      "title": "Chọn món trước tiên",
+      "title": "Choose the First Piece",
       "friend": 2,
       "w": 6,
       "h": 4,
@@ -15561,12 +15561,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 2157445903
     },
     {
       "id": 95,
-      "title": "Chiếc hộp tinh tế",
+      "title": "A Delicate Box",
       "friend": 2,
       "w": 6,
       "h": 5,
@@ -15795,12 +15795,12 @@
       "stage": "mastery",
       "topology": "split",
       "targets": [],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 2487813229
     },
     {
       "id": 96,
-      "title": "Nghỉ cùng bạn nhé",
+      "title": "A Rest With Friends",
       "friend": 2,
       "w": 4,
       "h": 4,
@@ -15950,12 +15950,12 @@
           "kind": "egg"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 1196907720
     },
     {
       "id": 97,
-      "title": "Hành trình khéo léo",
+      "title": "A Careful Journey",
       "friend": 0,
       "w": 6,
       "h": 5,
@@ -16197,12 +16197,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1990762613
     },
     {
       "id": 98,
-      "title": "Lời hẹn sau cùng",
+      "title": "The Last Promise",
       "friend": 0,
       "w": 5,
       "h": 5,
@@ -16401,12 +16401,12 @@
           "kind": "hot"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 1319961460
     },
     {
       "id": 99,
-      "title": "Ba người một hộp",
+      "title": "Three Friends, One Box",
       "friend": 0,
       "w": 6,
       "h": 4,
@@ -16588,12 +16588,12 @@
       "stage": "vary",
       "topology": "split",
       "targets": [],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3759967928
     },
     {
       "id": 100,
-      "title": "Chọn khoảng trống",
+      "title": "Choose the Empty Space",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -16774,12 +16774,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 260423226
     },
     {
       "id": 101,
-      "title": "Giữ mát mùa nắng",
+      "title": "Cool Through the Sun",
       "friend": 0,
       "w": 6,
       "h": 5,
@@ -16994,12 +16994,12 @@
       "stage": "pressure",
       "topology": "notch",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3052016732
     },
     {
       "id": 102,
-      "title": "Picnic bậc thầy",
+      "title": "A Master Picnic",
       "friend": 0,
       "w": 6,
       "h": 5,
@@ -17250,12 +17250,12 @@
           "kind": "egg"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 2112947619
     },
     {
       "id": 103,
-      "title": "Dưới bóng cây già",
+      "title": "Under the Old Tree",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -17404,12 +17404,12 @@
           "kind": "cookie"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 306612473
     },
     {
       "id": 104,
-      "title": "Bữa tiệc trong vườn",
+      "title": "A Garden Feast",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -17589,12 +17589,12 @@
           "kind": "ice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 3782490163
     },
     {
       "id": 105,
-      "title": "Những món hòa hợp",
+      "title": "Foods in Harmony",
       "friend": 0,
       "w": 5,
       "h": 5,
@@ -17803,12 +17803,12 @@
           "kind": "rice"
         }
       ],
-      "difficulty": "Vừa sức",
+      "difficulty": "Steady",
       "seed": 888523433
     },
     {
       "id": 106,
-      "title": "Nút thắt cuối cùng",
+      "title": "The Final Knot",
       "friend": 0,
       "w": 6,
       "h": 5,
@@ -18025,12 +18025,12 @@
       "stage": "pressure",
       "topology": "stairs",
       "targets": [],
-      "difficulty": "Khó",
+      "difficulty": "Hard",
       "seed": 3816017304
     },
     {
       "id": 107,
-      "title": "Món quà trọn vẹn",
+      "title": "A Gift Complete",
       "friend": 0,
       "w": 6,
       "h": 5,
@@ -18281,12 +18281,12 @@
           "kind": "cookie"
         }
       ],
-      "difficulty": "Thử thách",
+      "difficulty": "Mastery",
       "seed": 3425577873
     },
     {
       "id": 108,
-      "title": "Hẹn picnic ngày mai",
+      "title": "Picnic Again Tomorrow",
       "friend": 0,
       "w": 5,
       "h": 4,
@@ -18452,7 +18452,7 @@
           "kind": "hot"
         }
       ],
-      "difficulty": "Thư giãn",
+      "difficulty": "Relax",
       "seed": 3181732150
     }
   ]

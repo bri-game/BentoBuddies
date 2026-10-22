@@ -1,4 +1,4 @@
-import assert from 'node:assert/strict';import fs from 'node:fs';import {rotate,cells,place,canPlace,evaluate,fingerprint,touching} from '../assets/scripts/Rules.ts';import {registerHooks} from 'node:module';registerHooks({resolve(spec,ctx,next){try{return next(spec,ctx);}catch(e){if(spec.startsWith('.')&&!spec.endsWith('.ts'))return next(spec+'.ts',ctx);throw e;}}});const {parseSave,fresh}=await import('../assets/scripts/Save.ts');
+import assert from 'node:assert/strict';import fs from 'node:fs';import {rotate,cells,place,canPlace,evaluate,fingerprint,touching,selectionRotation} from '../assets/scripts/Rules.ts';import {registerHooks} from 'node:module';registerHooks({resolve(spec,ctx,next){try{return next(spec,ctx);}catch(e){if(spec.startsWith('.')&&!spec.endsWith('.ts'))return next(spec+'.ts',ctx);throw e;}}});const {parseSave,fresh}=await import('../assets/scripts/Save.ts');
 const {levels}=JSON.parse(fs.readFileSync(new URL('../assets/resources/data/levels.json',import.meta.url)));let checks=0;const check=(v,m)=>{assert.ok(v,m);checks++;};const seen=new Set();
 check(levels.length===108,'108 levels');
 check(fingerprint(levels[0])===fingerprint({...levels[0],solution:{}}),'puzzle fingerprint independent of authored solution');
@@ -12,6 +12,12 @@ check(JSON.stringify(levels.slice(0,24))===JSON.stringify(base),'first 24 conten
 const oldComplete={...fresh(),current:24,board:base[23].solution,album:Object.fromEntries(base.map(l=>[l.id,l.solution]))};delete oldComplete.learned;
 const upgraded=parseSave(JSON.stringify(oldComplete),levels);check(upgraded.unlocked===25&&Object.keys(upgraded.album).length===24,'old completed campaign opens 25 and retains all albums');check(upgraded.current===24&&JSON.stringify(upgraded.board)===JSON.stringify(base[23].solution),'old current board preserved');
 check(upgraded.learned.includes('rice')&&!upgraded.learned.includes('target'),'learned mechanics migrate from album');
+const rotBoard={p:{x:0,y:0,r:2}};
+check(selectionRotation(null,'p',rotBoard,3)===2,'selecting a placed piece adopts its board orientation');
+check(selectionRotation('q','p',rotBoard,3)===2,'switching pieces adopts the new piece orientation');
+check(selectionRotation('q','p',{},3)===0,'selecting an unplaced piece starts unrotated');
+check(selectionRotation('p','p',{},1)===1,'re-touching the selected tray piece keeps the rotation the player chose');
+check(selectionRotation('p','p',rotBoard,3)===3,'re-touching the selected placed piece keeps the rotation the player chose');
 const locked={...fixture,pieces:[{id:'p',kind:'egg',shape:[[0,0],[1,0]],fixed:true}],rules:['fixed']};
 check(canPlace(locked,{},'p',{x:0,y:0,r:0}),'fixed can translate');check(!canPlace(locked,{},'p',{x:0,y:0,r:1}),'fixed cannot rotate');check(!canPlace(locked,{},'p',{x:0,y:0,r:4}),'fixed canonical orientation required');
 const center={...fixture,pieces:[piece('p','cookie')],rules:['center']};check(evaluate(center,{p:{x:1,y:1,r:0}}).ok,'interior cookie passes');check(!evaluate(center,{p:{x:0,y:1,r:0}}).ok,'edge cookie fails');

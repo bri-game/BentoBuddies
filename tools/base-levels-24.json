@@ -4,7 +4,7 @@
   "levels": [
     {
       "id": 1,
-      "title": "Hộp cơm đầu tiên",
+      "title": "First Lunchbox",
       "friend": 0,
       "w": 3,
       "h": 2,
@@ -75,7 +75,7 @@
     },
     {
       "id": 2,
-      "title": "Xoay một chút",
+      "title": "A Little Turn",
       "friend": 0,
       "w": 3,
       "h": 2,
@@ -147,7 +147,7 @@
     },
     {
       "id": 3,
-      "title": "Góc nhỏ xinh",
+      "title": "A Cozy Corner",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -253,7 +253,7 @@
     },
     {
       "id": 4,
-      "title": "Bữa trưa bên hồ",
+      "title": "Lunch by the Lake",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -360,7 +360,7 @@
     },
     {
       "id": 5,
-      "title": "Cơm thích rau",
+      "title": "Rice Likes Veggies",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -479,7 +479,7 @@
     },
     {
       "id": 6,
-      "title": "Một người bạn mới",
+      "title": "A New Friend",
       "friend": 0,
       "w": 4,
       "h": 3,
@@ -599,7 +599,7 @@
     },
     {
       "id": 7,
-      "title": "Vừa vặn bên nhau",
+      "title": "Side by Side",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -734,7 +734,7 @@
     },
     {
       "id": 8,
-      "title": "Giỏ cơm của Thỏ",
+      "title": "Bunny's Basket",
       "friend": 0,
       "w": 4,
       "h": 4,
@@ -870,7 +870,7 @@
     },
     {
       "id": 9,
-      "title": "Giữ kem mát nhé",
+      "title": "Keep the Ice Cream Cool",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1016,7 +1016,7 @@
     },
     {
       "id": 10,
-      "title": "Khoảng cách ngọt ngào",
+      "title": "A Sweet Distance",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1163,7 +1163,7 @@
     },
     {
       "id": 11,
-      "title": "Bữa trưa ấm áp",
+      "title": "A Warm Lunch",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1309,7 +1309,7 @@
     },
     {
       "id": 12,
-      "title": "Gió mát đồng cỏ",
+      "title": "Breeze Over the Meadow",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1456,7 +1456,7 @@
     },
     {
       "id": 13,
-      "title": "Dâu bên cửa sổ",
+      "title": "Berries by the Window",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1602,7 +1602,7 @@
     },
     {
       "id": 14,
-      "title": "Viền hộp xinh xắn",
+      "title": "A Pretty Rim",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1749,7 +1749,7 @@
     },
     {
       "id": 15,
-      "title": "Một góc cho dâu",
+      "title": "A Corner for Berries",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -1895,7 +1895,7 @@
     },
     {
       "id": 16,
-      "title": "Nghỉ dưới tán cây",
+      "title": "Rest in the Shade",
       "friend": 1,
       "w": 4,
       "h": 4,
@@ -2042,7 +2042,7 @@
     },
     {
       "id": 17,
-      "title": "Cùng đi picnic",
+      "title": "Off to the Picnic",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2216,7 +2216,7 @@
     },
     {
       "id": 18,
-      "title": "Nóng và lạnh",
+      "title": "Hot and Cold",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2391,7 +2391,7 @@
     },
     {
       "id": 19,
-      "title": "Chia nhau món ngon",
+      "title": "Sharing the Good Bits",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2566,7 +2566,7 @@
     },
     {
       "id": 20,
-      "title": "Hộp cơm cầu kỳ",
+      "title": "A Fancy Lunchbox",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2742,7 +2742,7 @@
     },
     {
       "id": 21,
-      "title": "Ngày nắng dịu",
+      "title": "A Soft Sunny Day",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -2917,7 +2917,7 @@
     },
     {
       "id": 22,
-      "title": "Tiệc nhỏ ba người",
+      "title": "A Party for Three",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -3093,7 +3093,7 @@
     },
     {
       "id": 23,
-      "title": "Món quà bất ngờ",
+      "title": "An Unexpected Gift",
       "friend": 2,
       "w": 5,
       "h": 4,
@@ -3268,7 +3268,7 @@
     },
     {
       "id": 24,
-      "title": "Picnic bên hoàng hôn",
+      "title": "Picnic at Sunset",
       "friend": 2,
       "w": 5,
       "h": 4,

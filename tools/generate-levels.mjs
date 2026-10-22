@@ -10,13 +10,13 @@ const pick=a=>a[Math.floor(rand()*a.length)];
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(rand()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const stages=['introduce','vary','vary','combine','pressure','mastery','recovery','vary','combine','pressure','mastery','recovery'];
 const titles=[
- ['Ô hẹn đầu tiên','Những ô hẹn trước','Góc hẹn nhỏ xinh','Lời nhắn bên hộp','Hai chỗ ngồi nhỏ','Đúng món đúng chỗ','Dạo qua vườn hoa','Chọn ô trước nhé','Hẹn Cơm cùng Rau','Tấm thiệp đôi','Ba lời nhắn nhỏ','Picnic thong thả'],
- ['Giữ nguyên hướng nhé','Dải ruy băng nhỏ','Đi ngang qua hộp','Một góc vừa khít','Hai món giữ hướng','Nút thắt khéo léo','Nghỉ bên bờ suối','Đường dài một hướng','Ruy băng và lời hẹn','Xoay món còn lại','Gói quà vuông vắn','Gió nhẹ qua vườn'],
- ['Bánh ở bên trong','Ô giữa ấm cúng','Chiếc bánh được che','Kem mát Bánh êm','Dành chỗ cho Bánh','Vòng ngoài vòng trong','Bữa trà dưới lá','Một khoảng riêng tư','Bánh và lời nhắn','Vừa vặn lõi hộp','Chia viền cho Dâu','Trà chiều thong thả'],
- ['Hai ngăn picnic','Bậc thềm nhỏ','Lối vòng quanh đá','Chọn góc cho món','Một khe vừa đủ','Hai bữa trong hộp','Nghỉ giữa hai bờ','Góc khuyết bất ngờ','Món dài qua ngõ','Góc nhỏ bên hồ','Chia ngăn khéo léo','Cầu gỗ buổi chiều'],
- ['Cuộc hẹn chung','Cơm Rau đúng chỗ','Hộp cơm nhiều lời nhắn','Giữ kem mát lành','Từng điều quan tâm','Bữa trưa hòa hợp','Một yêu cầu thôi','Ruy băng cùng Bánh','Bữa trưa đủ vị','Chỗ này dành ai','Ba lời hứa nhỏ','Picnic bình yên'],
- ['Hộp quà nhiều góc','Nút thắt giữa hộp','Qua khe hẹp nhé','Hai hướng một lời','Vòng quanh lõi hộp','Gói gọn ngày nắng','Bữa ăn nhẹ nhàng','Đảo chiều suy nghĩ','Góc cuối dành ai','Chọn món trước tiên','Chiếc hộp tinh tế','Nghỉ cùng bạn nhé'],
- ['Hành trình khéo léo','Lời hẹn sau cùng','Ba người một hộp','Chọn khoảng trống','Giữ mát mùa nắng','Picnic bậc thầy','Dưới bóng cây già','Bữa tiệc trong vườn','Những món hòa hợp','Nút thắt cuối cùng','Món quà trọn vẹn','Hẹn picnic ngày mai']
+ ['The First Saved Seat','Seats Saved Ahead','A Little Meeting Corner','A Note on the Box','Two Small Seats','Right Food, Right Spot','A Walk Through Flowers','Choose the Cell First','Rice Meets Veggie','A Pair of Cards','Three Little Notes','An Easy Picnic'],
+ ['Keep That Angle','A Little Ribbon','Straight Across','A Snug Corner','Two Locked Items','A Clever Knot','Rest by the Stream','One Long Direction','Ribbon and Promise','Turn What Is Left','A Neat Square Gift','A Breeze in the Garden'],
+ ['The Cookie Stays In','A Cozy Middle','The Sheltered Cookie','Cool Cream, Soft Cookie','Room for the Cookie','Outer Ring, Inner Ring','Tea Under the Leaves','A Quiet Space','Cookie and Note','Snug in the Core','Rim Left for Berry','A Slow Afternoon Tea'],
+ ['Two Picnic Halves','A Small Step','Around the Stones','Pick a Corner','Just Enough Gap','Two Meals, One Box','Rest Between Banks','An Unexpected Notch','A Long Piece Through','A Nook by the Lake','A Clever Divide','The Wooden Bridge'],
+ ['A Shared Promise','Rice and Veggie in Place','A Box Full of Notes','Keep the Cream Cool','Every Little Care','A Lunch in Harmony','Just One Request','Ribbon and Cookie','A Lunch of Every Flavor','Who Is This Seat For','Three Small Promises','A Peaceful Picnic'],
+ ['A Gift Box of Corners','A Knot in the Middle','Through the Narrow Gap','Two Ways, One Promise','Around the Core','Sunshine, Neatly Packed','A Gentle Meal','Turn Your Thinking Around','Who Gets the Last Corner','Choose the First Piece','A Delicate Box','A Rest With Friends'],
+ ['A Careful Journey','The Last Promise','Three Friends, One Box','Choose the Empty Space','Cool Through the Sun','A Master Picnic','Under the Old Tree','A Garden Feast','Foods in Harmony','The Final Knot','A Gift Complete','Picnic Again Tomorrow']
 ];
 function rulePlan(ch,i){
  if(ch===0)return i<3||i===6?['target']:i<6?['target','rice']:i===8||i===10?['target','rice','edge']:['target','cold'];
@@ -59,7 +59,7 @@ for(let n=25;n<=108;n++){
   const solution={};const pieces=groups.map((g,j)=>{const x=Math.min(...g.map(c=>c[0])),y=Math.min(...g.map(c=>c[1])),r=Math.floor(rand()*4),shape=rotate(g.map(([a,b])=>[a-x,b-y]),r);solution[String(j)]={x,y,r:(4-r)%4};return {id:String(j),kind:kinds[j],shape};});
   if(rules.includes('fixed')){const opts=shuffle(pieces.filter(p=>new Set([0,1,2,3].map(r=>rotate(p.shape,r).map(c=>c.join(',')).sort().join(';'))).size>1));if(!opts.length)continue;for(const p of opts.slice(0,intro?1:stage==='mastery'?3:2)){p.shape=rotate(p.shape,solution[p.id].r);solution[p.id].r=0;p.fixed=true;}}
   const targets=rules.includes('target')?shuffle(groups.map((g,j)=>({cell:pick(g),kind:kinds[j]}))).slice(0,intro?1:stage==='mastery'?3:2):[];
-  const l={id:n,title:titles[ch][i],friend:ch%3,w,h,blocked,pieces,rules,solution,stage:ch>=3&&stage==='introduce'?'vary':stage,topology,targets,difficulty:intro?'Làm quen':recovery?'Thư giãn':stage==='mastery'?'Thử thách':stage==='pressure'?'Khó':'Vừa sức',seed};
+  const l={id:n,title:titles[ch][i],friend:ch%3,w,h,blocked,pieces,rules,solution,stage:ch>=3&&stage==='introduce'?'vary':stage,topology,targets,difficulty:intro?'Gentle':recovery?'Relax':stage==='mastery'?'Mastery':stage==='pressure'?'Hard':'Steady',seed};
   if(!evaluate(l,solution).ok||seen.has(fingerprint(l))||shapesSeen.has(geometry(l)))continue;
   // Target and interior rules must exclude at least one geometrically legal placement.
   if(rules.includes('center')){const p=pieces.find(p=>p.kind==='cookie');if(!p||!Array.from({length:w*h},(_,a)=>({x:a%w,y:Math.floor(a/w),r:0})).some(pos=>canPlace(l,{},p.id,pos)&&cells(p,pos).some(([x,y])=>!x||!y||x===w-1||y===h-1)))continue;}
